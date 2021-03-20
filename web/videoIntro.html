@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <title>视频介绍</title>
+
+    <style>
+        .bg {
+            background: url('img/bg01.jpg');
+            height: 820px;
+            text-align: center;
+            line-height: 800px;
+        }
+        .bg-blur {
+            float: left;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            -webkit-filter: blur(15px);
+            -moz-filter: blur(15px);
+            -o-filter: blur(15px);
+            -ms-filter: blur(15px);
+            filter: blur(15px);
+        }
+        .content-front {
+            position:absolute;
+        }
+    </style>
+
+</head>
+<body>
+<div class="bg bg-blur"></div>
+<div class="content-front container-fluid" style="">
+   <div class="row">
+       <div style="margin-left: 325px;margin-top: 50px;">
+           <h2 class="display-4" style="color: gainsboro; text-align: center"> 永州市旅游宣传片</h2>
+           <video style="margin-top: 50px" id="sampleMovie" src="video/v01.mp4" controls></video>
+       </div>
+
+   </div>
+    <div class="row">
+        <a href="index.html" type="submit" class="btn btn-primary-outline  border rounded-pill" style="color: gainsboro;  margin-top: 30px;margin-left: 700px">返回首页</a>
+    </div>
+
+</div>
+
+</body>
+</html>
